@@ -7,23 +7,14 @@
 
 #pragma once
 
-#include <types.h>
+typedef unsigned char uint_8;
+typedef unsigned int NID;
 
+typedef NID NxResult;
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-    NxResult NxStartServer();
-#ifdef __cplusplus
-}
-#endif
+typedef struct Instance Instance;
 
+typedef Instance* NxInstance;
 
-
-// Interface for C++
-
-#ifdef __cplusplus
-namespace Nexg {
-
-}
-#endif
+#define NX_SUCCESS                        0x00000000
+#define NX_ERROR_INVALID_COMMAND          0x00000001

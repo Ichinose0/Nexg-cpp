@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "nexserver.h": "c",
+        "nexg.h": "c",
+        "types.h": "c",
+        "stddef.h": "c",
+        "internal.h": "c",
+        "stdio.h": "c"
+    }
+}
